@@ -39,6 +39,11 @@ Install required Python packages
 
 pip install -r requirements.txt 
 
+if you have errors like 
+error: externally-managed-environment
+then use this command
+pip install -r requirements.txt --break-system-packages
+
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
 python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu
@@ -55,9 +60,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu
 
 
-
 YOU NEED THIS TERMUX MOD VERSION THIS IS THE ONE I USED!
-
 
 https://github.com/KitsunedFox/termux-monet
 
