@@ -23,7 +23,9 @@ Clone the repository
 
 git clone https://github.com/lllyasviel/stable-diffusion-webui-forge
 
+or
 
+git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git
 
 Change the current directory
 
